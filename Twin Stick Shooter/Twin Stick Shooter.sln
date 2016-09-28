@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twin Stick Shooter.CSharp.Plugins", "Twin Stick Shooter.CSharp.Plugins.csproj", "{E98E32BD-4164-D7F6-46FE-C4033A429BE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twin Stick Shooter.CSharp", "Twin Stick Shooter.CSharp.csproj", "{B254D00C-88E3-1E17-26A9-D0891D7C3698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twin Stick Shooter.CSharp.Editor", "Twin Stick Shooter.CSharp.Editor.csproj", "{00E29E5D-6D9C-404A-0AF2-98BF46941D23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E98E32BD-4164-D7F6-46FE-C4033A429BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98E32BD-4164-D7F6-46FE-C4033A429BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98E32BD-4164-D7F6-46FE-C4033A429BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98E32BD-4164-D7F6-46FE-C4033A429BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B254D00C-88E3-1E17-26A9-D0891D7C3698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B254D00C-88E3-1E17-26A9-D0891D7C3698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B254D00C-88E3-1E17-26A9-D0891D7C3698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B254D00C-88E3-1E17-26A9-D0891D7C3698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00E29E5D-6D9C-404A-0AF2-98BF46941D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E29E5D-6D9C-404A-0AF2-98BF46941D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E29E5D-6D9C-404A-0AF2-98BF46941D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E29E5D-6D9C-404A-0AF2-98BF46941D23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
