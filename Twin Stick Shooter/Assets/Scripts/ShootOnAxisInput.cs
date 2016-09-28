@@ -8,7 +8,7 @@ public class ShootOnAxisInput : MonoBehaviour {
     public string horizontalAxis = "Horizontal";
     public string verticalAxis = "Vertical";
 
-    public float shootDelay = 15f;
+    public float shootDelay = 1f;
 
     private bool canShoot = true;
 
@@ -22,8 +22,12 @@ public class ShootOnAxisInput : MonoBehaviour {
 	void Update () {
 
         Vector3 shootDirection = Vector3.right * Input.GetAxis(horizontalAxis) + Vector3.forward * Input.GetAxis(verticalAxis);
+
+        transform.rotation = Quaternion.LookRotation(shootDirection, Vector3.up);
+
+        if (canShoot && shootDirection.sqrMagnitude > 0.0f)
         {
-            transform.rotation = Quaternion.LookRotation(shootDirection, Vector3.up);
+           // transform.rotation = Quaternion.LookRotation(shootDirection, Vector3.up);
             Instantiate(bullet, transform.position, transform.rotation);
 
             canShoot = false;
@@ -32,8 +36,9 @@ public class ShootOnAxisInput : MonoBehaviour {
 
     }
 
-    void resetShot()
+    void ResetShot()
     {
+        Debug.Log ("shoot");
         canShoot = true;
     }
 }
